@@ -32,7 +32,7 @@ public class SecondController {
 	@PostMapping(value="/addStudent" ,consumes = {"application/json","application/xml"}, produces = {"application/json","application/xml"})
 	public ResponseEntity<StudentDto> addStudent(@RequestBody StudentDto studentDto) {
 		
-		System.out.println("===============microserive2==========");
+		System.out.println("===============microserive22222==========");
 		
 		Student returnEntity = studentService.addStudent(StudentMapper.DtoToEntity(studentDto));
 		
